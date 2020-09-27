@@ -1,0 +1,10 @@
+{{> header}}
+
+<h1>Página Home {{teste}}</h1>
+
+{{#posts}}
+    <h3><a href="/post/{{slugx}}">{{title}}</a></h3>
+    <p>{{body}}</p>
+    <a href="/post/{{slugx}}/edit">[ editar ]</a>
+    <hr/>
+{{/posts}}
